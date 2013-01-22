@@ -16,7 +16,7 @@ main: main.o
 	$(CXX) -o main main.o $(LIBS)
 	
 test: test.o
-	@ech "** Building test"
+	@echo "** Building test"
 	$(CXX) -o test test.o $(LIBS)
 
 clean:
